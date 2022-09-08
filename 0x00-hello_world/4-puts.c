@@ -1,15 +1,13 @@
 #include <stdio.h>
 /**
  * print_job - prints words using put
+ *
+ * Return: always 0 (success)
  */
-void print_job(void)
+ 
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
-	return (void) 0;
+	return (0);
 }
-
-/**
- * Return - return
- * return: 0
- */
